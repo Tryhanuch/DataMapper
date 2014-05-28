@@ -19,19 +19,14 @@ public class Main {
         Car car1 = new Car("Mercedes", "Vito", 47000);
         Car car2 = new Car("Ford", "Fiesta", 33000);
 
-//        dm.save(nu);
-//        dm.save(nu1);
-//        dm.save(nu2);
 //        dm.save(nu3);
 
 //        dm.save(car0);
-//        dm.save(car1);
-//        dm.save(car2);
 
 //        User user = (User) dm.load(1, User.class);
 //        System.out.println(user.getId() + " " + user.getFirstName() + " " + user.getLastName() + " " + user.getAge()
 //                + " " + user.getSalary());
-//
+
 //        System.out.println();
 //        List<Object> users = dm.loadAll(User.class);
 //        for (int i = 0; i < users.size(); i++) {
@@ -40,15 +35,17 @@ public class Main {
 //                    + " " + u.getSalary());
 //        }
 
-//        Car car = (Car) dm.load(1, Car.class);
+//        Car car = (Car) dm.load(5, Car.class);
 //        System.out.println(car.getId() + " " + car.getMark() + " " + car.getModel() + " " + car.getPrice());
-//        car.setModel("Polo");
+//        car.setModel("Focus");
 //        car.setPrice(18000);
 //        dm.update(car);
 
-//        dm.delete(4, Car.class);
+//        dm.delete(8, User.class);
 
 //        String f = o.getClass().getDeclaredField(fieldsName.get(i)).getAnnotation(Column.class).name();
+
+
 
 
     }

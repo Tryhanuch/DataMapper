@@ -8,6 +8,8 @@ import anntt.Entity;
  */
 @Entity(name = "User")
 public class User {
+    @Column(name = "ID")
+    private long id;
     @Column(name = "FIRST_NAME")
     private String firstName;
     @Column(name = "LAST_NAME")
@@ -16,8 +18,6 @@ public class User {
     private int age;
     @Column(name = "SALARY")
     private int salary;
-    @Column(name = "ID")
-    private long id;
 
     public User(String firstName, String secondName, int age, int salary) {
         this.firstName = firstName;

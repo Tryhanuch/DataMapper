@@ -8,14 +8,14 @@ import anntt.Entity;
  */
 @Entity(name = "Car")
 public class Car {
+    @Column(name = "ID")
+    private long id;
     @Column(name = "MARK")
     private String mark;
     @Column(name = "MODEL")
     private String model;
     @Column(name = "PRICE")
     private int price;
-    @Column(name = "ID")
-    private long id;
 
     public Car(String mark, String model, int coast) {
         this.mark = mark;
